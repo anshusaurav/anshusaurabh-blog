@@ -16,9 +16,9 @@ module.exports = {
     // leave the social media you do not want to appear as empty strings
     twitter: 'anshusaurav',
     medium: '@anshu.saurav',
-    facebook: '',
-    github: '',
-    linkedin: '',
-    instagram: '',
+    facebook: 'anshu.saurabh',
+    github: 'anshusaurav',
+    linkedin: 'anshusaurav',
+    instagram: 'anshusaurav',
   },
 }
