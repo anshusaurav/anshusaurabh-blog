@@ -114,7 +114,7 @@ function Bio() {
         style={{
           marginBottom: 0,
           minWidth: 150,
-          borderRadius: '100%',
+          borderRadius: '50%',
           border: '8px solid lavender',
         }}
         imgStyle={{
