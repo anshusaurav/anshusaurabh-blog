@@ -9,7 +9,7 @@ redirect_from:
   - /nicolas-gallagher-normalize-css-vs-eric-mayer-reset-css-458a31b048b4
 ---
 
-All web browsers add their own style formatting to HTML elements for a more readable document. But not all browsers treat HTML in the same way. For example, _Safari_ and _Chrome_ will display the same HTML document differently, and these differences are due to built-in browser styling.we want an HTML elements to look the same way, independent of which browser is being used to view it. Unfortunately, this is not the case because of the way browsers run. Historically web developers used to use CSS files called resets, which removed all the default browser styling applied to HTML, and then applied their own styles for everything over the top — this was done to make styling on a project more consistent, and reduce possible cross browser issues, especially for things like layout.
+All web browsers add their own style formatting to HTML elements for a more readable document. But not all browsers treat HTML in the same way. For example, `Safari` and `Chrome` will display the same HTML document differently, and these differences are due to built-in browser styling.we want an HTML elements to look the same way, independent of which browser is being used to view it. Unfortunately, this is not the case because of the way browsers run. Historically web developers used to use CSS files called resets, which removed all the default browser styling applied to HTML, and then applied their own styles for everything over the top — this was done to make styling on a project more consistent, and reduce possible cross browser issues, especially for things like layout.
 
 ![CSS Reset](./asset-1.jpeg)
 

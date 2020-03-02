@@ -31,8 +31,8 @@ For example, if article tags have been used to wrap a forum post, it would be ap
 
 The section element is used to identify content that is a major sub-section of a larger whole. For example, if you’ve posted a long document in HTML format, it would be reasonable to wrap each chapter in a section element. There might me some confusion in usage of section and div. So to clear that you should remember two things:
 
-1.  Use <div> when you are wrapping up some content purely to make it easier to style the content.
-2.  Use <section> when you want to list the content as an item when writing out an outline of the document.
+1.  Use `<div>` when you are wrapping up some content purely to make it easier to style the content.
+2.  Use `<section>` when you want to list the content as an item when writing out an outline of the document.
 
 If your web-page includes blog posts, articles, or any other content that could just as well appear on another website as syndicated content, wrap that content in an article post. You can use an article element just about anywhere other than nested within a main element, but in most cases an article element will be a direct descendant of a main element or of a section element that is a direct descendant of a main element.
 

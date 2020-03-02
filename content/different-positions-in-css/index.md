@@ -13,7 +13,7 @@ The CSS position property defines how the element is positioned on the web page.
 
 There are several types of positioning: static, relative, absolute, fixed. First of all, let’s explain what all of these types mean.
 
-**Static **— This is the default value, all elements are in order as they appear in the document.  
+**Static**— This is the default value, all elements are in order as they appear in the document.  
 **Relative** — The element is positioned relative to its normal position.  
 **Absolute** — The element is positioned absolutely to its first positioned parent.  
 **Fixed** — The element is positioned related to the browser window.
@@ -67,10 +67,6 @@ The positioning is done relative to the first relatively (or absolutely) positio
 </div>
 ```
 **CSS**
-
-
-
-
 
 ```CSS
 #parent { 

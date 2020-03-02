@@ -24,7 +24,7 @@ Patterns — Most of the time we can solve this issue using some of general 
 
 On smaller screens, the fluid grid causes the main content to reflow, while columns are stacked vertically. One major advantage of this pattern is that it usually only requires one breakpoint between small screens and large screens.
 
-**Column Drop **— For full-width multi-column layouts, column drop simply stacks the columns vertically as the window width becomes too narrow for the content.
+**Column Drop**— For full-width multi-column layouts, column drop simply stacks the columns vertically as the window width becomes too narrow for the content.
 
 Eventually this results in all of the columns being stacked vertically. Choosing breakpoints for this layout pattern is dependent on the content and changes for each design.
 
