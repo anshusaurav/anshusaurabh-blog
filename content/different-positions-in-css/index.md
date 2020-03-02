@@ -24,14 +24,14 @@ Two most commonly used position values — **relative and absolute**.
 
 **HTML**
 
-```
+```HTML
 <div id=”first_element”>First element</div> 
 <div id=”second_element”>Second element</div>
 ```
 
 **CSS**
 
-```
+```CSS
 #first_element { 
  position: relative; 
  left: 30px; 
@@ -61,15 +61,18 @@ The positioning is done relative to the first relatively (or absolutely) positio
 
 **HTML**
 
-```
+```HTML
 <div id=”parent”>
  <div id=”child”></div>
 </div>
 ```
-
 **CSS**
 
-```
+
+
+
+
+```CSS
 #parent { 
  position: relative; 
  width: 500px; 

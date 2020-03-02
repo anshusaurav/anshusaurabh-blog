@@ -34,7 +34,7 @@ Properties `firstChild` and `lastChild` give fast access to the first and last c
 
 They are just short-hands. If there exist child nodes, then the following is always true:
 
-```
+```js
 elem.childNodes[0] === elem.firstChild
 elem.childNodes[elem.childNodes.length - 1] === elem.lastChild
 ```
@@ -47,7 +47,7 @@ There are two important consequences:
 
 We can use `for..of`to iterate over it:
 
-```
+```js
 for (let node of document.body.childNodes) {
   alert(node); 
 }
@@ -57,13 +57,13 @@ That’s because it’s iterable (provides the `Symbol.iterator` property, as re
 
 Array methods won’t work, because it’s not an array:
 
-```
+```js
 alert(document.body.childNodes.filter); 
 ```
 
 If we want to use Array methods
 
-```
+```js
 alert( Array.from(document.body.childNodes).filter ); 
 ```
 
@@ -71,7 +71,7 @@ _Siblings_ are nodes that are children of the same parent.
 
 For instance, here `<head>` and `<body>` are siblings:
 
-```
+```HTML
 <html>
   <head>...</head><body>...</body>
 </html>
