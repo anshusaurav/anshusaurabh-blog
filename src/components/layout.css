@@ -53,6 +53,7 @@ h6 {
 h1 {
   font-size: 48px;
   text-align: left;
+  text-shadow:2px 2px rgb(197, 233, 221);
   margin-bottom: 8px;
 }
 
@@ -78,7 +79,9 @@ a {
 a {
   text-decoration: underline;
 }
-
+.blog-listing > p:nth-child(2) {
+  font-weight: 600;
+}
 blockquote {
   font-size: 30px;
   font-style: italic;

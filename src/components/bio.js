@@ -8,7 +8,7 @@ function Bio() {
       query BioQuery {
         avatar: file(absolutePath: { regex: "/avatar.png/" }) {
           childImageSharp {
-            fixed(width: 50, height: auto, quality: 80) {
+            fixed(width: 50, quality: 80) {
               base64
               width
               height
